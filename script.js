@@ -6,7 +6,9 @@ function domainGenerator (){
     for(let i=0; i<3; i++){
         alert('www.' + pronoun[i] + adj[i] + noun[i] + '.com');
         alert('www.' + adj[i] + pronoun[i] + noun[i] + '.com');
-        alert('www.' + pronoun[i] + noun[i] + adj[i] + '.com');
+        alert('www.' + pronoun[i] + noun[i] + adj[i] + '.com'); //aca tiene un problema ya que me aparece "Undefined"
     }
 }
+
+
 domainGenerator();
